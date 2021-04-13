@@ -853,3 +853,22 @@ Residential & Individual Page Styles
 #pad-right {
   padding-right: 50px;
 }
+
+#hero-img-right-residential {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-banner-scaled.jpeg") !important;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+#genspeaking-img-right-residential {
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-basics-scaled.jpeg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -5px;
+}
+
+#headline-residential {
+  font-size: 45px !important;
+}
