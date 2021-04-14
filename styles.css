@@ -855,16 +855,16 @@ Residential & Individual Page Styles
 }
 
 #hero-img-right-residential {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-banner-scaled.jpeg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-banner-img-scaled.jpeg") !important;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
 }
 
 #genspeaking-img-right-residential {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-basics-scaled.jpeg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/residential-img-bottom-scaled.jpeg") !important;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   margin-left: -5px;
 }
