@@ -40,7 +40,7 @@ Navigation Brand/Logo
 Hero/Banner & Buttons
 **************************/
 .mover {
-  padding-left: 110px !important;
+  padding-left: 110px;
 }
 
 .hero-button1 {
@@ -91,7 +91,7 @@ X - Graphic
 CTA - Content
 **************************/
 .ctaContainer {
-  max-width: 100% !important;
+  max-width: 100%;
 }
 
 /**************************
@@ -160,18 +160,18 @@ One Step Logistics Services - Content
 Why FreightCenter - Content
 **************************/
 .whyFC {
-  padding-bottom: 10px !important;
+  padding-bottom: 10px;
 }
 
 /**************************
 Overrides
 **************************/
 .features-blue .intro {
-  max-width: 750px !important;
+  max-width: 750px;
 }
 
 .ShippingSolutions {
-  max-width: 70% !important;
+  max-width: 70%;
 }
 
 .highlight-phone {
@@ -301,15 +301,26 @@ Media Queries & Breakpoints
 
   /* styles for mobile browsers smaller than 480px; (iPhone) */
   .highlight-phone {
-    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg") !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    min-height: 64vh !important;
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 64vh;
+  }
+
+  #tl-banner-holdr {
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-mobile-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #truckload-mover {
+    padding-right: 0px;
   }
 
   .highlight-phone .container .row {
-    height: 47vh !important;
+    height: 47vh;
   }
 
   .hero-button2 {
@@ -317,11 +328,11 @@ Media Queries & Breakpoints
   }
 
   .hideOnMobile {
-    display: none !important;
+    display: none;
   }
 
   .xGraphic {
-    display: none !important;
+    display: none;
   }
 
   .cta {
@@ -364,26 +375,26 @@ Media Queries & Breakpoints
   }
 
   .mover h1 {
-    color: white !important;
-    font-size: 32px !important;
-    letter-spacing: -2px !important;
-    line-height: 37px !important;
+    color: white;
+    font-size: 32px;
+    letter-spacing: -2px;
+    line-height: 37px;
   }
 
   .ctaContainer a {
-    font-size: 20px !important;
+    font-size: 20px;
   }
 
   .mover {
-    padding-left: 0 !important;
+    padding-left: 0;
   }
 
   .features-blue .container .intro h2 {
-    margin-top: 50px !important;
+    margin-top: 50px;
   }
 
   .bottom .container-fluid {
-    padding-top: inherit !important;
+    padding-top: inherit;
   }
 
   .footer-copyright {
@@ -397,44 +408,44 @@ Media Queries & Breakpoints
   }
 
   .features p {
-    padding: 10px 40px !important;
+    padding: 10px 40px;
   }
 
   .features2 p {
-    padding: 10px 10px !important;
+    padding: 10px 10px;
   }
 
   #shipping-resource-list-fc li a,
   #shipping-resource-list-follow li a {
-    left: 82px !important;
-    top: 10px !important;
+    left: 82px;
+    top: 10px;
   }
 
   .logo-footer,
   #footer-links h5 {
-    margin-left: 81px !important;
+    margin-left: 81px;
   }
 
   hr:not([size]) {
-    background-color: transparent !important;
+    background-color: transparent;
   }
 
   .pb-3 {
-    padding-bottom: 5rem !important;
+    padding-bottom: 5rem;
   }
 }
 
 @media only screen and (device-width: 768px) {
   .highlight-phone {
-    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg") !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    min-height: 64vh !important;
+    background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/03/Header-Images-edited-mob-1-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 64vh;
   }
 
   .highlight-phone .container .row {
-    height: 47vh !important;
+    height: 47vh;
   }
 
   .xGraphic,
@@ -446,15 +457,15 @@ Media Queries & Breakpoints
     position: absolute;
     top: 39%;
     left: 32%;
-    padding-left: 0px !important;
+    padding-left: 0px;
     text-align: center;
   }
 
   .mover h1 {
     font-size: 35px;
     color: #fff;
-    letter-spacing: -2px !important;
-    line-height: 35px !important;
+    letter-spacing: -2px;
+    line-height: 35px;
   }
 
   .highlight-phone {
@@ -468,7 +479,7 @@ Media Queries & Breakpoints
   .hero-button1,
   .hero-button2 {
     padding: 5px 10px;
-    font-size: 14px !important;
+    font-size: 14px;
     color: #fff;
   }
 }
@@ -487,7 +498,7 @@ Media Queries & Breakpoints
 @media only screen and (max-width: 1440px) {
   .xGraphic {
     height: 78vh;
-    left: 321px !important;
+    left: 321px;
   }
 
   .hideOnMobile img {
@@ -498,7 +509,7 @@ Media Queries & Breakpoints
 @media only screen and (max-width: 2500px) {
   .xGraphic {
     height: 78vh;
-    left: 23vw !important;
+    left: 23vw;
   }
 
   .hideOnMobile img {
@@ -706,15 +717,15 @@ Truckload Page Styles
 **************************/
 
 #hero-img-right {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-scaled.jpg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-3-img-banner-scaled.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat:
 }
 
 #truckload-mover {
-  padding-right: 145px !important;
-  text-align: center !important;
+  padding-right: 145px;
+  text-align: center;
 }
 
 #truckload-mover h1 {
@@ -726,8 +737,8 @@ Truckload Page Styles
 }
 
 #truckload-cta {
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #truckload-hero-img {
@@ -740,7 +751,7 @@ Truckload Page Styles
 }
 
 #tl-desc {
-  padding: 5px 10px !important;
+  padding: 5px 10px;
 }
 
 #tl-features-top,
@@ -749,7 +760,7 @@ Truckload Page Styles
 }
 
 #nopadtwenty {
-  padding-top: 0px !important;
+  padding-top: 0px;
 }
 
 .light-blue {
@@ -761,7 +772,7 @@ Truckload Page Styles
 }
 
 #genspeaking-img-right {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-img-scaled.jpeg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/truckload-img-scaled.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -804,7 +815,7 @@ LTL Page Styles
 **************************/
 
 #tl-banner-holdr {
-  min-height: unset !important;
+  min-height: unset;
 }
 
 #lt-row {
@@ -824,14 +835,14 @@ LTL Page Styles
 }
 
 #hero-img-right-ltl {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-scaled.jpg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-3-img-banner-scaled.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #genspeaking-img-right-ltl {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-img-scaled-1.jpg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/ltl-img-scaled-1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -855,14 +866,14 @@ Residential & Individual Page Styles
 }
 
 #hero-img-right-residential {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_292846293-scaled.jpeg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_292846293-scaled.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #genspeaking-img-right-residential {
-  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_390910751-scaled.jpeg") !important;
+  background-image: url("http://fshippingprod.wpengine.com/wp-content/uploads/2021/04/AdobeStock_390910751-scaled.jpeg");
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
@@ -870,5 +881,5 @@ Residential & Individual Page Styles
 }
 
 #headline-residential {
-  font-size: 45px !important;
+  font-size: 45px;
 }
